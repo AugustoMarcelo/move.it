@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img alt="Happy" src="https://res.cloudinary.com/augustomarcelo/image/upload/v1614902070/move.it/move.it-logo_c11bmc.png" />
+  <img alt="Happy" src="https://res.cloudinary.com/augustomarcelo/image/upload/v1615037467/move.it/logo-full_x1dwv9.svg" />
   <br />
   4th Next Level Week
 </h1>
