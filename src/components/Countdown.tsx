@@ -2,8 +2,6 @@ import { useContext } from 'react';
 import { CountdownContext } from '../contexts/CountdownContext';
 import styles from '../styles/components/Countdown.module.css';
 
-let countdownTimeout: NodeJS.Timeout;
-
 export function Countdown() {
   const {
     minutes,
@@ -59,8 +57,6 @@ export function Countdown() {
           )}
         </>
       )}
-
-      
     </div>
   )
 }
