@@ -95,6 +95,7 @@
 .challengeActive footer button.challengeFailedButton {
   background: #fff5f5;
   color: var(--red);
+  border-bottom-left-radius: 5px;
 }
 
 .challengeActive footer button.challengeFailedButton:hover {
@@ -106,6 +107,7 @@
   background: #f7fff5;
   color: var(--green);
   border-left: 1px solid var(--gray-line);
+  border-bottom-right-radius: 5px;
 }
 
 .challengeActive footer button.challengeSucceededButton:hover {
