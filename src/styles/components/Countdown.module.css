@@ -51,6 +51,7 @@
   font-size: 1.25rem;
   font-weight: 600;
   transition: background-color 0.2s;
+  outline: 1px solid transparent;
 }
 
 .countdownButton img {
@@ -65,11 +66,28 @@
 .countdownButtonActive {
   background: var(--white);
   color: var(--title);
+  position: relative;
+}
+
+.progressTimer {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 4px;
+  background: var(--green);
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  width: 0;
 }
 
 .countdownButtonActive:not(:disabled):hover {
   background: var(--red);
   color: var(--white);
+}
+
+.countdownButtonActive:not(:disabled):hover svg path {
+  fill: #fff;
 }
 
 .countdownButton:disabled {

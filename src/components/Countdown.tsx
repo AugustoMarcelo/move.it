@@ -1,11 +1,13 @@
 import { useContext } from 'react';
 import { CountdownContext } from '../contexts/CountdownContext';
+import Close from '../../public/icons/close.svg';
 import styles from '../styles/components/Countdown.module.css';
 
 export function Countdown() {
   const {
     minutes,
     seconds,
+    progressPercent,
     hasFinished,
     isActive,
     startCountdown,
@@ -35,6 +37,7 @@ export function Countdown() {
           className={styles.countdownButton}
         >
           Ciclo encerrado
+          <img src="/icons/check-circle.svg" alt="Círculo verde com um vê dentro"/>
         </button>
       ) : (
         <>
@@ -45,6 +48,8 @@ export function Countdown() {
               onClick={resetCountdown}
             >
               Abandonar ciclo
+              <Close />
+              <span className={styles.progressTimer} style={{ width: `${progressPercent}%` }} />
             </button>
           ) : (
             <button
