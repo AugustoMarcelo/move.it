@@ -11,14 +11,14 @@ export function Sidebar() {
       <img src="/logo.svg" alt="Três colunas azuis com a do meio maior do que as demais" />
       <nav>
         <ul>
-          <li className={router.pathname === '/' && styles.activeLink}>
+          <li className={router.pathname === '/' ? styles.activeLink : ''}>
             <Link href="/">
               <a>
                 <Home />
               </a>
             </Link>
           </li>
-          <li className={router.pathname === '/ranking' && styles.activeLink}>
+          <li className={router.pathname === '/ranking' ? styles.activeLink : ''}>
             <Link href="/ranking">
               <a>
                 <img src="/icons/award.svg" alt="Medalha"/>
