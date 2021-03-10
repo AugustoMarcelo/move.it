@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img alt="Happy" src="https://res.cloudinary.com/augustomarcelo/image/upload/v1615037467/move.it/logo-full_x1dwv9.svg" />
+  <img alt="Move.it" src="https://res.cloudinary.com/augustomarcelo/image/upload/v1615037467/move.it/logo-full_x1dwv9.svg" />
   <br />
   4th Next Level Week
 </h1>
@@ -12,6 +12,12 @@
 ![App Screenshot](https://res.cloudinary.com/augustomarcelo/image/upload/v1614902290/move.it/Safari_Big_Sur_-_Dark_wbmlmr.png)
 
 ![App Screenshot](https://res.cloudinary.com/augustomarcelo/image/upload/v1614902487/move.it/Safari_Big_Sur_-_Dark_aaigle.png)
+
+---
+
+<h3 align="center">Version 2.0<h3>
+
+[![Versão 2.0](https://res.cloudinary.com/augustomarcelo/image/upload/v1615399094/move.it/move-it-2.0_ljm1uc.svg)](https://youtu.be/hJwTQtIWoM4)
 
 ## :gear: Technologies
 
